@@ -21,9 +21,13 @@ The objective is to demonstrate sequence modeling using LSTM for next-word gener
 ├── experiemnts.ipynb # Jupyter Notebook for preprocessing and training
 
 ├── hamlet.txt # Text corpus used for training (Shakespeare's Hamlet)
+
 ├── next_word_lstm.h5 # Saved LSTM model (after training)
+
 ├── tokenizer.pickle # Fitted tokenizer object
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # Project documentation
 
 ## 🧪 Model Details
