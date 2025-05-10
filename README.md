@@ -24,7 +24,7 @@ The objective is to demonstrate sequence modeling using LSTM for next-word gener
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 
-🧪 Model Details
+## 🧪 Model Details
 Type: LSTM (Recurrent Neural Network)
 
 Training data: hamlet.txt
@@ -34,7 +34,7 @@ Framework: Keras (via TensorFlow)
 Output: Next word with the highest predicted probability
 
 
-💻 How It Works
+## 💻 How It Works
 User enters a partial phrase (e.g., "To be or not to").
 
 The model tokenizes and pads the sequence.
@@ -42,9 +42,9 @@ The model tokenizes and pads the sequence.
 Predicts the most likely next word using trained weights.
 
 Displays the predicted word on the Streamlit UI.
-ps:( This model is trained on a limited data and got only 60% accuracy)
+PS: (This model is trained on a limited data and got only 60% accuracy)
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 Predict top 3 next word suggestions
 
 Integrate pre-trained word embeddings (e.g., GloVe)
