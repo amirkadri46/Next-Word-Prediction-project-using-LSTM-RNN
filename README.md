@@ -48,10 +48,11 @@ The model tokenizes and pads the sequence.
 Predicts the most likely next word using trained weights.
 
 Displays the predicted word on the Streamlit UI.
-PS: (This model is trained on a limited data and got only 60% accuracy)
+
+PS: (This model is trained on limited data and got only 60% accuracy)
 
 ## 🔮 Future Enhancements
-Predict top 3 next word suggestions
+Predict the top 3 next word suggestions
 
 Integrate pre-trained word embeddings (e.g., GloVe)
 
